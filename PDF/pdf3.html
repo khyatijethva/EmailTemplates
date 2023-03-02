@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.Attendance Report</title>
+    <style>
+        @media screen,
+        print {
+
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: 'OpenSans', 'HelveticaNeue', 'Arial', 'Helvetica', sans-serif;
+                font-size: 14px;
+                height: 100%;
+                background: #f7fcff;
+            }
+
+            .heading {
+                background: #187cb7;
+                color: #fff;
+                padding: 15px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .body-content {
+                padding: 20px;
+            }
+
+            .heading h2 {
+                margin: 0;
+            }
+
+            .company-details {
+                clear: both;
+            }
+
+            .company-details .left-data {
+                float: left;
+            }
+
+            .company-details .right-data {
+                float: right;
+                text-align: right;
+            }
+
+            .company-table {
+                clear: both;
+            }
+
+            .company-details .left-data ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            .company-details .left-data ul li {
+                padding: 4px 0;
+            }
+
+            .company-details .right-data h6 {
+                font-size: 18px;
+                margin-bottom: 6px;
+            }
+
+            .company-details .right-data p {
+                margin-bottom: 10px;
+            }
+
+            .table-head {
+                text-align: center;
+                border-bottom: 1px solid #ddd;
+                padding-bottom: 15px;
+                margin-bottom: 30px;
+            }
+
+            .table-data {
+                text-align: left;
+            }
+
+            table {
+                border-collapse: collapse;
+                margin: 0 auto;
+                width: 100%;
+            }
+
+            table th {
+                background: #187cb7;
+                color: #fff;
+                padding: 10px 8px;
+            }
+
+            td,
+            th {
+                border: 1px solid #010101;
+                border-collapse: collapse;
+                padding: 8px;
+                vertical-align: top;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="heading">
+            <h2>IN-OUT Register</h2>
+        </div>
+        <div class="body-content">
+            <div class="company-details">
+                <div class="left-data">
+                    <ul>
+                        <li><strong>Company Name : </strong>Elsner Technology Pvt Ltd</li>
+                        <li><strong>Company Address : </strong>Ahmedabad</li>
+                    </ul>
+                </div>
+                <div class="right-data">
+                    <p><strong>From : </strong>01/jan/2023 <strong>To : </strong>30/jan/2023</p>
+                    <p><strong>Print Date : </strong>13/jan/2023</p>
+                </div>
+            </div>
+
+            <div class="company-table">
+                <div class="table-head">
+                </div>
+                <div class="table-data">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th>Sun</th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                                <th>Sun</th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                                <th>Sun</th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                                <th>Sun</th>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                                <th>Sat</th>
+                                <th>Sun</th>
+                                <th>Mon</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>No.</strong></td>
+                                <td><strong>Employee Code</strong></td>
+                                <td><strong>Employee Name <br>Department <br>Designation <br>Join Date</strong></td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>28</td>
+                                <td>30</td>
+                                <td>31</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>ET-AMD-60</td>
+                                <td>
+                                    <strong>Khyati Jethva</strong>
+                                    <br>Web Design <br>
+                                    Sr. Frontend designer <br>
+                                    05-may-2019
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>10:14 <br>22:25</td>
+                                <td>10:14 <br>22:25</td>
+                                <td>10:14 <br>22:25</td>
+                                <td>10:14 <br>22:25</td>
+                                <td>10:14 <br>22:25</td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>10:14 <br>22:25</td>
+                                <td>10:14 <br>22:25</td>
+                                <td>10:14 <br>22:25</td>
+                                <td>10:14 <br>22:25</td>
+                                <td>10:14 <br>22:25</td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">AB</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">AB</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">AB</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">AB</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">AB</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                                <td>
+                                    <span style="color: red;">WO</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
